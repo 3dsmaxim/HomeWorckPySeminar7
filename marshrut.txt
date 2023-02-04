@@ -4,3 +4,4 @@ m3, 7, bus2, driver1
 m4, 135, bus3, driver1
 m5, 232B, bus1, driver3
 m6, virbilki, bus5, driver3
+m7, 4576, bus5, driver1

@@ -62,13 +62,10 @@ def add_route():
         list_bus = []
         print(f'{n} ---{i[0]} -- {i[1]}')
         n += 1
-    print(list_all_bus)
     bus = input('Укажите номер автобуса в списке: ')
     for i in list_all_bus:
         if int(i[0]) == int(bus):
             route_data_bus.append(id_route + ', ' + i[1].strip(' '))
-            print(i[1].strip(' '), i[2].strip(' '))
-            print(route_data_bus)
     print('Выберите водителя')
     n = 0
     route_data = []
@@ -86,7 +83,6 @@ def add_route():
     for i in list_all_driver:
         if int(i[0]) == int(driver):
             route_data.append(route_data_bus[0] + ', ' + i[1].strip(' '))
-            print(i[1].strip(' '), i[2].strip(' '))
             print(f'Поздравляю запись "{route_data[0]}" сформирована')
     route = route_data[0]
     seve_data_to_file('marshrut.txt', route)
