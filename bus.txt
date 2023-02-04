@@ -1,0 +1,5 @@
+bus1, mp123t96
+bus2,  oo654p77
+bus3,      oo007t54
+bus4, ds342q77
+bus5, oo423h43
